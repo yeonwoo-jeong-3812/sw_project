@@ -1,0 +1,17 @@
+# 가상환경
+venv/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 대용량 모델 가중치 (72MB, GitHub 권장 용량 초과)
+results/frcnn_finetuned.pth
+
+# 기타 IDE/OS 파일
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db

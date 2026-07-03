@@ -1,0 +1,41 @@
+{
+  "v3_a": {
+    "description": "기존 DDM + 회피 보너스 + 8장애물 + 고정 시작/목적지",
+    "final_arrival_rate": 0.0,
+    "final_collision_rate": 0.4463,
+    "total_steps": 99180,
+    "ce_blocked": 0,
+    "valid_exp": 99180,
+    "arrival_count": 147,
+    "episodes": 1000,
+    "obstacles": 8,
+    "start": [
+      1.0,
+      1.0
+    ],
+    "goal": [
+      13.5,
+      16.5
+    ]
+  },
+  "v3_b": {
+    "description": "연속 가중치 CE + RISK 페널티 + 회피 보너스 + 8장애물",
+    "ce_mode": "continuous: max(0.05, 1.0 - shift/50.0)",
+    "final_arrival_rate": 0.0026,
+    "final_collision_rate": 0.4258,
+    "total_steps": 95542,
+    "ce_blocked": 26452,
+    "valid_exp": 69090,
+    "arrival_count": 5,
+    "episodes": 1000,
+    "obstacles": 8,
+    "start": [
+      1.0,
+      1.0
+    ],
+    "goal": [
+      13.5,
+      16.5
+    ]
+  }
+}
